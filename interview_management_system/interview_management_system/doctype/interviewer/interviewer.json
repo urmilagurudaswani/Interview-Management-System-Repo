@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-09-11 13:00:34.939299",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "interviewer_id",
+  "name1",
+  "department",
+  "experience_years",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "interviewer_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Interviewer_ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "experience_years",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Experience_Years",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-11 21:41:12.689433",
+ "modified_by": "Administrator",
+ "module": "Interview Management System",
+ "name": "Interviewer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
